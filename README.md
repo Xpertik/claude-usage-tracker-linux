@@ -4,9 +4,9 @@ Monitor your Claude API usage from the GNOME desktop and terminal.
 
 ## Screenshots
 
-| Session Usage | Weekly Usage |
-|:---:|:---:|
-| ![Session Usage](imgs/sesion-usage.png) | ![Weekly Usage](imgs/week-usage.png) |
+| Session Usage | Weekly Usage | Session Inline |
+|:---:|:---:|:---:|
+| ![Session Usage](imgs/sesion-usage.png) | ![Weekly Usage](imgs/week-usage.png) | ![Session Inline](imgs/session-inlane.png) |
 
 ## Features
 
