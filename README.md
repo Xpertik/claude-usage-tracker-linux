@@ -2,6 +2,12 @@
 
 Monitor your Claude API usage from the GNOME desktop and terminal.
 
+## Screenshots
+
+| Session Usage | Weekly Usage |
+|:---:|:---:|
+| ![Session Usage](imgs/sesion-usage.png) | ![Weekly Usage](imgs/week-usage.png) |
+
 ## Features
 
 ### GNOME Shell Extension
