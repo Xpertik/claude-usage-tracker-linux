@@ -1,0 +1,10 @@
+{
+  "uuid": "claude-usage-tracker@xpertik.com",
+  "name": "Claude Usage Tracker",
+  "description": "Track Claude API usage (5-hour session, 7-day weekly, per-model breakdown, cost tracking) in the GNOME top bar with configurable color thresholds.",
+  "shell-version": ["45", "46", "47", "48", "49"],
+  "url": "https://github.com/xpertik/claude-usage-tracker-linux",
+  "version": 1,
+  "settings-schema": "org.gnome.shell.extensions.claude-usage-tracker",
+  "gettext-domain": "claude-usage-tracker@xpertik.com"
+}

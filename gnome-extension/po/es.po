@@ -1,0 +1,266 @@
+# Spanish translations for Claude Usage Tracker GNOME Extension
+# Copyright (C) 2024 Xpertik
+# This file is distributed under the same license as the extension.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: claude-usage-tracker@xpertik.com\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-08 00:00+0000\n"
+"PO-Revision-Date: 2026-04-08 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: extension.js — panel button accessible name
+msgid "Claude Usage Tracker"
+msgstr "Claude Usage Tracker"
+
+#: extension.js — dropdown section titles
+msgid "Session Usage (5H)"
+msgstr "Uso de Sesión (5H)"
+
+msgid "Weekly Usage (7D)"
+msgstr "Uso Semanal (7D)"
+
+#: extension.js — usage sections
+msgid "5-Hour Usage"
+msgstr "Uso 5 Horas"
+
+msgid "7-Day Usage"
+msgstr "Uso 7 Días"
+
+msgid "Sonnet (7-Day)"
+msgstr "Sonnet (7 Días)"
+
+msgid "Opus (7-Day)"
+msgstr "Opus (7 Días)"
+
+msgid "Context Window"
+msgstr "Ventana de Contexto"
+
+#: extension.js — model / cost / session labels
+msgid "Model:"
+msgstr "Modelo:"
+
+msgid "Cost:"
+msgstr "Costo:"
+
+msgid "Session:"
+msgstr "Sesión:"
+
+msgid "Pace:"
+msgstr "Ritmo:"
+
+#: extension.js — pace tier labels
+msgid "Comfortable"
+msgstr "Cómodo"
+
+msgid "Moderate"
+msgstr "Moderado"
+
+msgid "Active"
+msgstr "Activo"
+
+msgid "Heavy"
+msgstr "Intenso"
+
+msgid "Critical"
+msgstr "Crítico"
+
+msgid "Runaway"
+msgstr "Desbordado"
+
+#: extension.js — reset countdown
+msgid "Resets in"
+msgstr "Se reinicia en"
+
+msgid "Resets now"
+msgstr "Se reinicia ahora"
+
+#: extension.js — settings menu item
+msgid "Settings"
+msgstr "Configuración"
+
+#: extension.js — stale/error messages
+msgid "Data may be stale"
+msgstr "Los datos pueden estar desactualizados"
+
+msgid "No data — start Claude Code or run `claude` to authenticate"
+msgstr "Sin datos — iniciá Claude Code o ejecutá `claude` para autenticar"
+
+msgid "Token expired — re-auth needed"
+msgstr "Token expirado — se necesita re-autenticar"
+
+msgid "No credentials"
+msgstr "Sin credenciales"
+
+msgid "Re-auth needed"
+msgstr "Se necesita re-autenticar"
+
+msgid "Offline"
+msgstr "Sin conexión"
+
+msgid "API Error"
+msgstr "Error de API"
+
+msgid "Loading..."
+msgstr "Cargando..."
+
+msgid "(not available)"
+msgstr "(no disponible)"
+
+msgid "Showing last known data:"
+msgstr "Mostrando últimos datos conocidos:"
+
+#: prefs.js — page titles
+msgid "General"
+msgstr "General"
+
+msgid "Colors"
+msgstr "Colores"
+
+#: prefs.js — group titles
+msgid "Behavior"
+msgstr "Comportamiento"
+
+msgid "Polling and notification settings"
+msgstr "Configuración de polling y notificaciones"
+
+msgid "Display"
+msgstr "Pantalla"
+
+msgid "What to show in the panel and dropdown"
+msgstr "Qué mostrar en el panel y menú desplegable"
+
+#: prefs.js — behavior rows
+msgid "Refresh Interval"
+msgstr "Intervalo de Actualización"
+
+msgid "How often to poll usage data (seconds)"
+msgstr "Frecuencia de consulta de datos de uso (segundos)"
+
+msgid "Notification Threshold"
+msgstr "Umbral de Notificación"
+
+msgid "Warn when usage exceeds this percentage"
+msgstr "Avisar cuando el uso supere este porcentaje"
+
+#: prefs.js — per-metric indicator groups
+msgid "Enabled"
+msgstr "Habilitado"
+
+msgid "Show this indicator in the top bar"
+msgstr "Mostrar este indicador en la barra superior"
+
+msgid "Session Usage"
+msgstr "Uso de Sesión"
+
+msgid "5-hour rolling window usage"
+msgstr "Uso en ventana de 5 horas"
+
+msgid "Week Usage"
+msgstr "Uso Semanal"
+
+msgid "Weekly token usage (all models)"
+msgstr "Uso semanal de tokens (todos los modelos)"
+
+msgid "Show Time Until Reset"
+msgstr "Mostrar Tiempo Hasta Reinicio"
+
+msgid "Display remaining time beside the indicator"
+msgstr "Mostrar el tiempo restante junto al indicador"
+
+#: prefs.js — display rows
+msgid "Indicator Style"
+msgstr "Estilo del Indicador"
+
+msgid "How usage is displayed in the top bar"
+msgstr "Cómo se muestra el uso en la barra superior"
+
+msgid "Percentage (icon + text)"
+msgstr "Porcentaje (ícono + texto)"
+
+msgid "Progress Bar (label + bar)"
+msgstr "Barra de Progreso (etiqueta + barra)"
+
+msgid "Circle (ring indicator)"
+msgstr "Círculo (indicador anular)"
+
+msgid "Compact (icon only)"
+msgstr "Compacto (solo ícono)"
+
+#: prefs.js — display options group
+msgid "Display Options"
+msgstr "Opciones de Visualización"
+
+msgid "Shared display settings"
+msgstr "Configuración compartida de visualización"
+
+msgid "Show Time Position Marker"
+msgstr "Mostrar Marcador de Posición Temporal"
+
+msgid "Draw a vertical tick on progress bars showing elapsed time"
+msgstr "Dibujar una marca vertical en las barras de progreso mostrando el tiempo transcurrido"
+
+msgid "Color Mode"
+msgstr "Modo de Color"
+
+msgid "Color scheme for the top bar indicator"
+msgstr "Esquema de colores del indicador en la barra"
+
+msgid "Color (themed)"
+msgstr "Color (temático)"
+
+msgid "Monochrome (white/grey)"
+msgstr "Monocromático (blanco/gris)"
+
+msgid "Show Cost Info"
+msgstr "Mostrar Costo"
+
+msgid "Display the extra usage / cost section in the dropdown"
+msgstr "Mostrar la sección de costo extra en el menú"
+
+#: prefs.js — colors page
+msgid "Color Scheme"
+msgstr "Esquema de Colores"
+
+msgid "Catppuccin Mocha defaults. Click a swatch to change."
+msgstr "Valores por defecto Catppuccin Mocha. Hacé click para cambiar."
+
+msgid "Normal (under 70%)"
+msgstr "Normal (menor a 70%)"
+
+msgid "Warning (70-90%)"
+msgstr "Advertencia (70-90%)"
+
+msgid "Critical (90%+)"
+msgstr "Crítico (90%+)"
+
+msgid "Usage below 70%"
+msgstr "Uso menor al 70%"
+
+msgid "Usage between 70% and 90%"
+msgstr "Uso entre 70% y 90%"
+
+msgid "Usage at or above 90%"
+msgstr "Uso igual o mayor al 90%"
+
+msgid "Text Color"
+msgstr "Color de Texto"
+
+msgid "Label text in the dropdown"
+msgstr "Texto de etiquetas en el menú"
+
+msgid "Background"
+msgstr "Fondo"
+
+msgid "Dropdown panel background"
+msgstr "Fondo del panel desplegable"
+
+msgid "Reset Colors to Defaults"
+msgstr "Restablecer Colores"

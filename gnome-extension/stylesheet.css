@@ -1,0 +1,125 @@
+/* Claude Usage Tracker — Catppuccin Mocha defaults */
+/* Note: GNOME Shell (St/Clutter) does NOT support CSS variables.
+   Colors are applied inline via GSettings bindings in extension.js. */
+
+/* Panel indicator */
+.claude-indicator {
+  padding: 0 2px;
+}
+
+.claude-indicator-icon {
+  icon-size: 14px;
+  margin-right: 2px;
+}
+
+.claude-indicator-label {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* Navbar progress bar (top bar indicator) */
+.claude-navbar-bar {
+  margin: 0 2px;
+  border-radius: 6px;
+}
+
+/* Navbar circle ring (top bar indicator) */
+.claude-navbar-circle {
+  margin: 0 4px;
+}
+
+/* Dropdown menu */
+.claude-dropdown {
+  min-width: 320px;
+  padding: 8px;
+}
+
+.claude-section-header {
+  font-weight: bold;
+  font-size: 12px;
+  padding: 8px 0 4px 0;
+}
+
+.claude-usage-row {
+  padding: 4px 8px;
+}
+
+.claude-usage-label {
+  font-size: 11px;
+}
+
+.claude-usage-value {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.claude-reset-timer {
+  font-size: 10px;
+  font-style: italic;
+}
+
+/* Progress bar container */
+.claude-progress-container {
+  height: 8px;
+  border-radius: 4px;
+  margin: 2px 0;
+}
+
+/* Error / status states */
+.claude-error-label {
+  font-size: 11px;
+  font-style: italic;
+  padding: 8px;
+}
+
+.claude-stale-indicator {
+  font-size: 10px;
+}
+
+/* Pace indicator */
+.claude-pace-ahead {
+  color: #f38ba8;
+}
+
+.claude-pace-normal {
+  color: #89b4fa;
+}
+
+.claude-pace-behind {
+  color: #a6e3a1;
+}
+
+/* Extra usage / cost */
+.claude-cost-label {
+  font-size: 11px;
+}
+
+.claude-cost-value {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/* Dual-metric indicator scoping classes */
+.claude-indicator-session {
+  /* Scoping class for the session (5h) indicator */
+}
+
+.claude-indicator-week {
+  /* Scoping class for the weekly (7d) indicator */
+}
+
+/* Time marker tick on progress-bar style */
+.claude-time-marker {
+  /* Styling hook for the elapsed-time vertical tick (future theming) */
+}
+
+/* Remaining time label beside indicator */
+.claude-remaining-label {
+  font-size: 10px;
+  font-weight: normal;
+  margin-top: 1px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 0;
+}

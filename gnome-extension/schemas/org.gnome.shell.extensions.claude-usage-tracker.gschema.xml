@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="claude-usage-tracker">
+  <schema id="org.gnome.shell.extensions.claude-usage-tracker"
+          path="/org/gnome/shell/extensions/claude-usage-tracker/">
+
+    <!-- Polling -->
+    <key name="refresh-interval" type="i">
+      <default>300</default>
+      <summary>Refresh interval (seconds)</summary>
+      <description>How often to poll the Claude API for usage data. Minimum 60 seconds.</description>
+      <range min="60" max="3600"/>
+    </key>
+
+    <!-- Colors (Catppuccin Mocha defaults) -->
+    <key name="color-normal" type="s">
+      <default>'#89b4fa'</default>
+      <summary>Normal usage color</summary>
+      <description>Color for usage below 70%.</description>
+    </key>
+
+    <key name="color-warning" type="s">
+      <default>'#f9e2af'</default>
+      <summary>Warning usage color</summary>
+      <description>Color for usage between 70-90%.</description>
+    </key>
+
+    <key name="color-critical" type="s">
+      <default>'#f38ba8'</default>
+      <summary>Critical usage color</summary>
+      <description>Color for usage at or above 90%.</description>
+    </key>
+
+    <key name="color-text" type="s">
+      <default>'#cdd6f4'</default>
+      <summary>Text color</summary>
+      <description>Color for label text in the dropdown.</description>
+    </key>
+
+    <key name="color-background" type="s">
+      <default>'#1e1e2e'</default>
+      <summary>Background color</summary>
+      <description>Background color for the dropdown panel.</description>
+    </key>
+
+    <!-- Behavior -->
+    <key name="notify-threshold" type="i">
+      <default>80</default>
+      <summary>Notification threshold (%)</summary>
+      <description>Show a notification when usage exceeds this percentage.</description>
+      <range min="0" max="100"/>
+    </key>
+
+    <key name="show-extra-usage" type="b">
+      <default>true</default>
+      <summary>Show extra usage</summary>
+      <description>Display the extra usage / cost section in the dropdown.</description>
+    </key>
+
+    <key name="compact-mode" type="b">
+      <default>false</default>
+      <summary>Compact mode (deprecated)</summary>
+      <description>Deprecated: use indicator-style='compact' instead. Kept for backward compat.</description>
+    </key>
+
+    <key name="indicator-style" type="s">
+      <default>'percentage'</default>
+      <summary>Indicator display style in the top bar</summary>
+      <description>Options: 'percentage' (icon + text), 'progress-bar' (label + bar), 'circle' (ring indicator), 'compact' (icon only)</description>
+    </key>
+
+    <key name="color-mode" type="s">
+      <default>'color'</default>
+      <summary>Color mode for the indicator</summary>
+      <description>Options: 'color' (themed colors), 'monochrome' (system theme colors)</description>
+    </key>
+
+    <!-- Per-metric indicator settings -->
+    <key name="session-indicator-enabled" type="b">
+      <default>true</default>
+      <summary>Show session (5h) indicator</summary>
+      <description>Whether to show the 5-hour session usage indicator in the top bar.</description>
+    </key>
+
+    <key name="session-indicator-style" type="s">
+      <default>'percentage'</default>
+      <summary>Session indicator display style</summary>
+      <description>Display style for the session indicator. Options: 'percentage', 'progress-bar', 'circle', 'compact'.</description>
+    </key>
+
+    <key name="session-show-time" type="b">
+      <default>true</default>
+      <summary>Show remaining time for session</summary>
+      <description>Display remaining time label beside the session indicator.</description>
+    </key>
+
+    <key name="week-indicator-enabled" type="b">
+      <default>true</default>
+      <summary>Show weekly (7d) indicator</summary>
+      <description>Whether to show the 7-day weekly usage indicator in the top bar.</description>
+    </key>
+
+    <key name="week-indicator-style" type="s">
+      <default>'percentage'</default>
+      <summary>Weekly indicator display style</summary>
+      <description>Display style for the weekly indicator. Options: 'percentage', 'progress-bar', 'circle', 'compact'.</description>
+    </key>
+
+    <key name="week-show-time" type="b">
+      <default>true</default>
+      <summary>Show remaining time for weekly</summary>
+      <description>Display remaining time label beside the weekly indicator.</description>
+    </key>
+
+    <key name="show-time-marker" type="b">
+      <default>true</default>
+      <summary>Show time marker on progress bars</summary>
+      <description>Draw a vertical tick on progress-bar style indicators showing elapsed time within the window.</description>
+    </key>
+
+  </schema>
+</schemalist>
